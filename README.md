@@ -39,8 +39,7 @@ Composable, single-purpose functions for common educational use cases:
 - **Gemini API:** Wrapper for calling Google's Gemini API.
 
 ### Bootstrap
-- **`gas-craft
-.init()`**: A single function call that sets up a configuration sheet, creates menu items, and scaffolds necessary triggers.
+- **`gasCraft.init()`**: A single function call that sets up a configuration sheet, creates menu items, and scaffolds necessary triggers.
 
 ---
 
@@ -77,8 +76,6 @@ npx gas-script docs
 Visit the [Documentation Site](#) (Coming Soon) for:
 - Getting Started Guide
 - Recipe Catalog
-- "How do I..." Cookbook
-- Video Walkthroughs
 
 ---
 
