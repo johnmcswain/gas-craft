@@ -54,20 +54,22 @@ Located in the `/curriculum` directory, this kit contains resources for instruct
 
 ## 🛠️ CLI (Optional Power-User Path)
 
-For advanced users or those preferring a local development workflow, `gas-script` is available as an npm package.
+For advanced users or those preferring a local development workflow, the CLI is available as an npm package. Source code is located in the [`/cli`](./cli) directory.
+
+**Package:** [`@johnmcswain/gas-craft`](https://www.npmjs.com/package/@johnmcswain/gas-craft)
 
 ```bash
 # Initialize a new project with boilerplate
-npx gas-script init my-project
+npx @johnmcswain/gas-craft init my-project
 
 # Add a specific recipe
-npx gas-script add recipe:sheet-to-email
+npx @johnmcswain/gas-craft add recipe:sheet-to-email
 
 # Run remote tests
-npx gas-script test
+npx @johnmcswain/gas-craft test
 
 # Generate documentation
-npx gas-script docs
+npx @johnmcswain/gas-craft docs
 ```
 
 ## 📖 Documentation
