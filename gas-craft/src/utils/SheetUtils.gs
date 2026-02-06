@@ -7,7 +7,7 @@
  *   Sheet.write("Output", [["Name","Score"],["Ada",100]]);
  *   const val = Sheet.getValue("Settings", "B2");   // single cell
  */
-const Sheet = (function () {
+var Sheet = (function () {
   'use strict';
 
   /**

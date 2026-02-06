@@ -6,7 +6,7 @@
  *   Log.warn("Rate limit approaching");
  *   Log.error("Failed to fetch", { url: url, status: 500 });
  */
-const Log = (function () {
+var Log = (function () {
   'use strict';
 
   /**

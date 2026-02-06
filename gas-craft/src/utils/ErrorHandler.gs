@@ -12,7 +12,7 @@
  *   // Wrap with a custom message
  *   const safeLoad = Errors.wrap(loadData, "Failed to load your spreadsheet data");
  */
-const Errors = (function () {
+var Errors = (function () {
   'use strict';
 
   // ── Friendly translations for common GAS errors ───────────────────

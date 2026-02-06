@@ -24,7 +24,7 @@
  *   // 3. Simple API-key auth (no OAuth needed)
  *   const weather = Http.getJson(url, { auth: Auth.apiKey("YOUR_KEY") });
  */
-const Auth = (function () {
+var Auth = (function () {
   'use strict';
 
   /**

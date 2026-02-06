@@ -4,7 +4,7 @@
  * Usage:
  *   MailMerge.run("Contacts", "1abc...templateDocId", { subject: "Welcome!" });
  */
-const MailMerge = (function () {
+var MailMerge = (function () {
   'use strict';
 
   /**

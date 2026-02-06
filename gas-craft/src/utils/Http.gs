@@ -8,7 +8,7 @@
  *   const res = Http.post("https://api.example.com/users", { name: "Ada" });
  *   // sends JSON body, returns parsed response
  */
-const Http = (function () {
+var Http = (function () {
   'use strict';
 
   // ── Friendly error map ────────────────────────────────────────────
