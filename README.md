@@ -56,20 +56,20 @@ Located in the `/curriculum` directory, this kit contains resources for instruct
 
 ## 🛠️ CLI (Optional Power-User Path)
 
-For advanced users or those preferring a local development workflow, `gas-forge` is available as an npm package.
+For advanced users or those preferring a local development workflow, `gas-script` is available as an npm package.
 
 ```bash
 # Initialize a new project with boilerplate
-npx gas-forge init my-project
+npx gas-script init my-project
 
 # Add a specific recipe
-npx gas-forge add recipe:sheet-to-email
+npx gas-script add recipe:sheet-to-email
 
 # Run remote tests
-npx gas-forge test
+npx gas-script test
 
 # Generate documentation
-npx gas-forge docs
+npx gas-script docs
 ```
 
 ## 📖 Documentation
