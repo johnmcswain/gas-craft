@@ -1,8 +1,7 @@
 # gas-craft
  Framework
 
-**gas-craft
-** is a lightweight, zero-friction Google Apps Script (GAS) library designed to simplify education and prototyping. It provides a collection of utility wrappers and composable "recipe" modules that allow students and developers to build powerful automations without getting bogged down in boilerplate code.
+**gas-craft** is a lightweight, zero-friction Google Apps Script (GAS) library designed to simplify education and prototyping. It provides a collection of utility wrappers and composable "recipe" modules that allow students and developers to build powerful automations without getting bogged down in boilerplate code.
 
 ## 🚀 Getting Started
 
