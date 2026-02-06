@@ -1,0 +1,6 @@
+node_modules/
+.clasp.json
+.google-apps-script.json
+creds.json
+.DS_Store
+dist/

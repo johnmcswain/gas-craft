@@ -1,0 +1,55 @@
+{
+    "name": "@johnmcswain/gas-craft",
+    "version": "0.2.0",
+    "description": "CLI for gas-craft framework: scaffolding, linting, recipes, and testing for Google Apps Script.",
+    "bin": {
+        "gas-craft": "bin/gas-craft.js"
+    },
+    "files": [
+        "bin/",
+        "README.md",
+        "LICENSE",
+        "CHANGELOG.md"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "google apps script",
+        "google",
+        "apps script",
+        "gas",
+        "cli",
+        "scaffolding",
+        "linting",
+        "eslint",
+        "clasp",
+        "framework",
+        "education"
+    ],
+    "author": "John McSwain",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/johnmcswain/gas-craft.git",
+        "directory": "cli"
+    },
+    "homepage": "https://github.com/johnmcswain/gas-craft#readme",
+    "bugs": {
+        "url": "https://github.com/johnmcswain/gas-craft/issues"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "os": [
+        "darwin",
+        "linux",
+        "win32"
+    ],
+    "dependencies": {
+        "commander": "^11.0.0",
+        "fs-extra": "^11.1.0",
+        "shelljs": "^0.8.5",
+        "@google/clasp": "^3.0.0"
+    }
+}

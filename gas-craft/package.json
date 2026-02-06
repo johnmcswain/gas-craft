@@ -1,0 +1,18 @@
+{
+  "name": "gas-craft",
+  "version": "1.0.0",
+  "scripts": {
+    "push": "clasp push",
+    "pull": "clasp pull",
+    "open": "clasp open",
+    "lint": "gas-craft lint",
+    "test": "gas-craft test"
+  },
+  "devDependencies": {
+    "@google/clasp": "^3.0.0",
+    "@types/google-apps-script": "^1.0.0",
+    "@johnmcswain/gas-craft": "^0.2.0",
+    "eslint": "^9.0.0",
+    "eslint-plugin-googleappsscript": "^1.0.5"
+  }
+}
